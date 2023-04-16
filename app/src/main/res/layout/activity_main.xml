@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivGPS"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-2dp"
+        app:srcCompat="@drawable/gps2" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivGPS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="GEOLOCATION"
+        android:textStyle="bold|italic"
+        android:backgroundTint="@color/quantum_lightblue400"/>
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/btnMaps"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_slogan"
+        android:textColor="@color/quantum_lightblue400"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMaps"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_slogan2"
+        android:textColor="@color/quantum_lightblue400"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMaps"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_slogan3"
+        android:textColor="@color/quantum_lightblueA700"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="257dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/btnMaps"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_slogan4"
+        android:textColor="@color/quantum_bluegrey400"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
